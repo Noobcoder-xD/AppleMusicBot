@@ -6,13 +6,13 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
+API_ID = int(getenv("API_ID", "9608057"))
 
-API_HASH = getenv("API_HASH", "")
+API_HASH = getenv("API_HASH", "4d16235b83e8d55b8812abf5ecbc8c2e")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "6941529892:AAH4lPh_8fjC5w5WF6tLD2dwnIqcVPEhIRA")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://developervro:developerrapuka@cluster9.gcj9754.mongodb.net/?retryWrites=true&w=majority&appName=Cluster9")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 54000))
 
@@ -20,15 +20,15 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "54000")
 )
 
-LOGGER_ID = int(getenv("LOGGER_ID", ""))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001553204990"))
 
-OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", "6903041211"))
 
-START_STICKER_ID = getenv("START_STICKER_ID", "CAACAgUAAxkBAAIYJ2XDYrt9C1aT2TMAAVbvhu7GQt4pxQACOg4AAs7jGVZZ_1ODkCxOcx4E")
+START_STICKER_ID = getenv("START_STICKER_ID", "")
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Thava X Music")
 
-POWERED_BY = getenv("POWERED_BY", "˹ 𝐓ʜᴀᴠᴀ ✘ 𝐌ᴜꜱɪᴄ ˼")
+POWERED_BY = getenv("POWERED_BY", "⏤͟͟͞͞• 𝐕 𝚫 𝐌 𝐒 𝐈 ˼ㅤㅤ [•ᴧғᴋ•]™")
 
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
@@ -36,15 +36,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Thava-OX/ThavaXMusic",
+    "https://github.com/Noobcoder-xD/AppleMusicBot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TBNBotsNetwork")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TBNBotsNetworkSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/jsjjsjsjjsksm")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/hhsjsjsjsjsjjs")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
@@ -66,7 +66,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @TBN_StringGeneratorRobot on Telegram
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", "BQCz_2sAGRem4LR7_KTp2Wlq_pznFIDBKQSLupQtMHYP7b-ax9ggitw5LLGiQc-8Q2WSLYUoejh4Jw6S0WBrkJYLLuzH9mYf1cYqVPAsr8XypSJSLCMSMiJW8lO7W-NWCADDqBmzpi3Vit259osB_a8y-CtT5pBLK4bPHf4S-QZDrxXousBV0uwQ-Hc1NlcAK0M47mcasL0G1zW1TFCC_VbEALi-_TUau33jRYbWlkmqwEN51yTF4ML-5qzVL5E9zuxji9BYetkCeBezV_ZwH4GglTTqgQCNlqYexgm0rIe1qYmUFe8axHRbUTvPLTblHDGINynmnp7SOobqV9UM0UNvSZEDoAAAAAGfVD-oAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
